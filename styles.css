@@ -1,0 +1,11 @@
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    width: 40%;
+}
+.myButton{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
