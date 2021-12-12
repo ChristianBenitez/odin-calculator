@@ -1,3 +1,4 @@
+// Operations
 function addition(a, b){
     return a + b
 }
@@ -25,3 +26,13 @@ function operate ( operator, a, b){
         return divide(a,b)
     }
 }
+
+let startingNumber = 0;
+let displayNumber = 0;
+let buttons = document.querySelectorAll("input[type=button]");
+console.log(buttons.length)
+
+function numberPress(val){
+    displayNumber = startingNumber + val
+}
+document.getElementById('display').innerHTML = displayNumber;
